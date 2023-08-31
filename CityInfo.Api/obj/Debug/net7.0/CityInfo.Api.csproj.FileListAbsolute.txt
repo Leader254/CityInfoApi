@@ -76,3 +76,5 @@ C:\Users\Samuel\source\repos\CityInfo\CityInfo.Api\obj\Debug\net7.0\refint\CityI
 C:\Users\Samuel\source\repos\CityInfo\CityInfo.Api\obj\Debug\net7.0\CityInfo.Api.pdb
 C:\Users\Samuel\source\repos\CityInfo\CityInfo.Api\obj\Debug\net7.0\CityInfo.Api.genruntimeconfig.cache
 C:\Users\Samuel\source\repos\CityInfo\CityInfo.Api\obj\Debug\net7.0\ref\CityInfo.Api.dll
+C:\Users\Samuel\source\repos\CityInfo\CityInfo.Api\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Samuel\source\repos\CityInfo\CityInfo.Api\bin\Debug\net7.0\Newtonsoft.Json.dll

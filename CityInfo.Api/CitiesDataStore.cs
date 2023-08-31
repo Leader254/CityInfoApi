@@ -6,9 +6,9 @@ namespace CityInfo.Api
     {
         public List<CityDto> Cities { get; set; }
 
-        public static CitiesDataStore Current { get;  } = new CitiesDataStore();
+        public static CitiesDataStore Current { get; } = new CitiesDataStore();
 
-        public CitiesDataStore() 
+        public CitiesDataStore()
         {
             Cities = new List<CityDto>()
             {
@@ -23,17 +23,17 @@ namespace CityInfo.Api
                         {
                             Id = Guid.NewGuid(),
                             Name = "Nairobi National Park",
-                            Descrition = "The only park in the city in the world"
+                            Description = "The only park in the city in the world"
                         },
                         new PointOfInterestDto()
                         {
                             Id = Guid.NewGuid(),
                             Name = "Nairobi National Museum",
-                            Descrition = "The museum with the history of Kenya"
+                            Description = "The museum with the history of Kenya"
                         }
                     }
                 },
-                new CityDto() 
+                new CityDto()
                 {
                     Id = Guid.NewGuid(),
                     Name = "Kampala",
@@ -44,17 +44,17 @@ namespace CityInfo.Api
                         {
                             Id = Guid.NewGuid(),
                             Name = "Kasubi Tombs",
-                            Descrition = "The burial grounds of the Kings of Buganda"
+                            Description = "The burial grounds of the Kings of Buganda"
                         },
                         new PointOfInterestDto()
                         {
                             Id = Guid.NewGuid(),
                             Name = "Uganda Museum",
-                            Descrition = "The museum with the history of Uganda"
+                            Description = "The museum with the history of Uganda"
                         }
-                    }   
+                    }
                 },
-                new CityDto() 
+                new CityDto()
                 {
                     Id = Guid.NewGuid(),
                     Name = "Mombasa",
@@ -65,15 +65,15 @@ namespace CityInfo.Api
                         {
                             Id = Guid.NewGuid(),
                             Name = "Fort Jesus",
-                            Descrition = "The fort built by the Portuguese"
+                            Description = "The fort built by the Portuguese"
                         },
                         new PointOfInterestDto()
                         {
                             Id = Guid.NewGuid(),
                             Name = "Mombasa Marine Park",
-                            Descrition = "The marine park with the coral reef"
+                            Description = "The marine park with the coral reef"
                         }
-                    }       
+                    }
                 }
             };
         }

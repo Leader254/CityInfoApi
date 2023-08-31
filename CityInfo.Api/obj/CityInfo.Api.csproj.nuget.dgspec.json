@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Samuel\\source\\repos\\CityInfo\\CityInfo.Api\\CityInfo.Api.csproj": {}
+    "C:\\Users\\Samuel\\source\\repos\\CityInfo\\CityInfo.Api\\CityInfo.Api.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Samuel\\source\\repos\\CityInfo\\CityInfo.Api\\CityInfo.Api.csproj": {
+    "C:\\Users\\Samuel\\source\\repos\\CityInfo\\CityInfo.Api\\CityInfo.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Samuel\\source\\repos\\CityInfo\\CityInfo.Api\\CityInfo.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Samuel\\source\\repos\\CityInfo\\CityInfo.Api\\CityInfo.Api.csproj",
         "projectName": "CityInfo.Api",
-        "projectPath": "c:\\Users\\Samuel\\source\\repos\\CityInfo\\CityInfo.Api\\CityInfo.Api.csproj",
+        "projectPath": "C:\\Users\\Samuel\\source\\repos\\CityInfo\\CityInfo.Api\\CityInfo.Api.csproj",
         "packagesPath": "C:\\Users\\Samuel\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Samuel\\source\\repos\\CityInfo\\CityInfo.Api\\obj\\",
+        "outputPath": "C:\\Users\\Samuel\\source\\repos\\CityInfo\\CityInfo.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Samuel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -48,6 +48,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.JsonPatch": {
+              "target": "Package",
+              "version": "[7.0.10, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
